@@ -1,3 +1,26 @@
+# Troubleshooting Using Dev Tools
+## Overview
+Used Google Chrome's Developer Tools for general familarization and to troubleshoot basic issues.
+
+## Technologies
+- Chrome Developer Tools
+
+## Objectives
+Successfully identified, troubleshot, and resolved basic development issues/errors.
+
+## Instructions
+#### Elements
+Offer significant help on front-end and visual work; when highlighting elements in this tab they also highlight on the DOM
+#### Sources
+Displays files linked to the current document and their location
+#### Console
+One of the most useful tools in the developer's ["Batman utility belt"](https://en.wikipedia.org/wiki/Batman%27s_utility_belt)
+
+## Implementation
+
+
+
+
 Dev Tools Example
 =================
 
@@ -9,14 +32,7 @@ From the Chrome menu
 Right-click on the page and choose "inspect" (My preferred method)
 ![alt tag](pics/01 openFromRtClick.png)
 
-"Elements" offers a lot of help on front end and visual work. When highlighting elements in this tab they also highlight on the DOM
-![alt tag](pics/02 elements.png)
 
-"Sources" shows what files are linked to the current document and where they are located. In this simple project we can see the js file in the "scripts" folder and the css file in the "styles" folder.
-![alt tag](pics/03 sources.png)
-
-"Console" is where we'll be doing much of our work. As you've seen, "console.log()" puts text in the Console and this is one of the most useful tools in your Batman Utility Belt.
-![alt tag](pics/04 console.png)
 
 Let's take a gander at the code within this project. You'll see that there's a couple global variables (globalNumber, globalString) and a "startMeUp" function that is run on page load. There are also functions for "showGlobals", "someMathyThing", and "someWordyThing".
 
